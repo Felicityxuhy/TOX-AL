@@ -7,11 +7,11 @@ This is the official implementation of TOX-AL. In this work, we propose **TOX-AL
 ## Environment
 This implementation is based on the python 3.9.6 environment.
 Please use command prompt(or Anaconda prompt) to install the appropriate python packages and make sure they are in the appropriate version
-torch >= 1.11.0
-numpy >= 1.21.5
-pandas >= 1.2.4
-scikit-learn >=1.0.2
-tqdm >= 4.61.2
+- torch >= 1.11.0
+- numpy >= 1.21.5
+- pandas >= 1.2.4
+- scikit-learn >=1.0.2
+- tqdm >= 4.61.2
 
 ## Dataset
 The raw data used in this study was the C. Xu's Ames data collection provided within 'In silico Prediction of Chemical Ames mutagenicity',[33] which is one of the commonly used data sets for developing the prediction models. The entire database was prepared as follows. Firstly, any inorganic molecules, that is, those without carbon atoms within the structure are removed. Secondly, the molecules with unspecified stereochemistry were removed. Thirdly, the molecules were standardized using the InChI key. Finally, duplicates were identified and removed using the InChI key across the data collection.
