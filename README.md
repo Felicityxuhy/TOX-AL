@@ -17,5 +17,10 @@ Please use command prompt(or Anaconda prompt) to install the appropriate python 
 The raw data used in this study was the C. Xu's Ames data collection provided within 'In silico Prediction of Chemical Ames mutagenicity',which is one of the commonly used data sets for developing the prediction models. The entire database was prepared as follows. Firstly, any inorganic molecules, that is, those without carbon atoms within the structure are removed. Secondly, the molecules with unspecified stereochemistry were removed. Thirdly, the molecules were standardized using the InChI key. Finally, duplicates were identified and removed using the InChI key across the data collection.
 In total, 7486 compounds were used for the model building. The data sets contained 4196 mutagens and 3289 non-mutagens. This data was downloaded from https://toxric.bioinforai.tech/home.
 
-## Training
+If you have already downloaded the data, put it in the `data` folder and change the path in `prepare_data.py`
 
+## Train and Evaluate
+To train a model and evaluate, you can run it on the terminal as:
+```python
+python TOX-AL_main.py
+ ```
